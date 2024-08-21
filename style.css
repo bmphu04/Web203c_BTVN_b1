@@ -1,5 +1,22 @@
-body {
+.body {
     font-family: Arial, sans-serif;
     background-color: #000;
     color: #FEC063;
+    margin: 0;
+    padding: 0;
+}
+/* định dạng cho phần lịch khai giảng */
+.CEREMONY{
+    text-align: center;/* căn giữa  nội dung dòng ceremony ở giữa */
+    margin-top: 10px; /* Thêm khoảng cách 10px trên phần tử này */
+}
+.CEREMONY h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+.CEREMONY h2 {
+    margin-top:0;
+    
 }
