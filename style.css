@@ -1,5 +1,7 @@
+
+
 .body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background-color: #000;
     color: #FEC063;
     margin: 0;
@@ -12,6 +14,18 @@
     color: orange;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.link {
+    text-align: center; /* Căn giữa tất cả các phần tử con bên trong .link */
+}
+
+.link a {
+    text-decoration: none; 
+    text-align: center;
+    font-size: 18px; 
+    font-style: italic; /* In nghiêng chữ */
+    color: #000000; 
 }
 .SE1, .SE2, .SE3, .SE4, .SE5 {
     margin: 20px auto;
