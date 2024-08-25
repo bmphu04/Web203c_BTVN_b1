@@ -9,9 +9,32 @@
 .title{
     text-align: center;
     margin-bottom: 20px;
+    color: orange;
     font-weight: bold;
     text-transform: uppercase;
 }
+.SE1, .SE2, .SE3, .SE4, .SE5 {
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid orange;
+    width: 80%;
+    background-color: #222;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
 /* định dạng cho phần lịch khai giảng */
 .CEREMONY{
     text-align: center;/* căn giữa  nội dung dòng ceremony ở giữa */
