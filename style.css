@@ -34,7 +34,15 @@ th, td {
     padding: 10px;
     text-align: center;
 }
+.SE1 td:nth-child(1), .SE2 td:nth-child(2), .SE3 td:nth-child(1),.SE3 td:nth-child(4), .SE4 td:nth-child(2), .SE4 td:nth-child(4), .SE5 td:nth-child(5) {
+    background-color: green;
+    color: white;
+}
 
+.SE1 td:nth-child(3), .SE2 td:nth-child(4), .SE3 td:nth-child(3),.SE3 td:nth-child(6), .SE4 td:nth-child(6), .SE5 td:nth-child(3) {
+    background-color: blueviolet;
+    color: white;
+}
 /* định dạng cho phần lịch khai giảng */
 .CEREMONY{
     text-align: center;/* căn giữa  nội dung dòng ceremony ở giữa */
