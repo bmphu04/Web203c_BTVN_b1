@@ -57,9 +57,9 @@ th, td {
     background-color: blueviolet;
     color: white;
 }
-/* định dạng cho phần lịch khai giảng */
+/* Định dạng cho phần lịch khai giảng */
 .CEREMONY{
-    text-align: center;/* căn giữa  nội dung dòng ceremony ở giữa */
+    text-align: center;/* Căn giữa nội dung dòng ceremony ở giữa */
     margin-top: 10px; /* Thêm khoảng cách 10px trên phần tử này */
 }
 .CEREMONY h1 {
