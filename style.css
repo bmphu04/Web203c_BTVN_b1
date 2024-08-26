@@ -19,6 +19,11 @@
     font-weight: bold;
     text-transform: uppercase;
 }
+.img-responsive{
+    max-width: 75%;
+   
+
+}
 
 .link {
     text-align: center; /* Căn giữa tất cả các phần tử con bên trong .link */
