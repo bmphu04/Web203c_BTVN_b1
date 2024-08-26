@@ -19,6 +19,9 @@
     font-weight: bold;
     text-transform: uppercase;
 }
+.img{
+    width: 50%;
+}
 
 .link {
     text-align: center; /* Căn giữa tất cả các phần tử con bên trong .link */
