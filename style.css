@@ -1,12 +1,12 @@
 
 
-.body {
+body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: bisque;
+    background-color:lightgoldenrodyellow;
     color: #FEC063;
     margin: 0;
     padding: 0;
-    
+
 }
 
 .SE1, .SE2, .SE3, .SE4, .SE5 h2{
@@ -67,11 +67,12 @@ th, td {
 }
 /* Định dạng cho phần lịch khai giảng */
 .CEREMONY{
-    text-align: center;/* Căn giữa nội dung dòng ceremony ở giữa */
+    text-align: left;/* Căn giữa nội dung dòng ceremony ở giữa */
     margin-top: 10px; /* Thêm khoảng cách 10px trên phần tử này */
+    display:flex;
 }
 .CEREMONY h1 {
-    text-align: center;
+    text-align: left;
     font-weight: bold;
     margin-top: 15px;
     text-transform: uppercase;
@@ -81,4 +82,30 @@ th, td {
     margin-top:0;
     color: orange;
 }
+.back-to-top{
+    font-size: 25px;
+    text-align: center;
+    font-family:monospace;
+}
+
+.end{
+    width:48%;
+}
+.img-responsive{
+    width:20%;
+    margin-left:37%;
+}
+.sologan1{
+    width:38%;
+    margin-left:8%;
+}
+.sologan2{
+    width: 38%;
+    margin-right:5%;
+}
+.sologan{
+    display:flex;
+    width: 100%
+}
+
 
