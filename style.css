@@ -99,11 +99,16 @@ th, td {
 }
 
 .end{
-    width:48%;
+   width:81%;
+   margin-left: 40%;
 }
 .img-responsive{
     width:20%;
     margin-left:37%;
+}
+.img-responsive2{
+    width: 20%;
+
 }
 .sologan1{
     width:38%;
