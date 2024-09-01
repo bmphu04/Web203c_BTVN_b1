@@ -101,7 +101,7 @@ th, td {
 }
 .sologan2{
     width: 38%;
-    margin-right:5%;
+    margin-right:8px;
 }
 .sologan{
     display:flex;
@@ -117,3 +117,30 @@ footer {
     font-family: 'Times New Roman', Times, serif;
 }
 
+.footer-content {
+    display: flex; /*sắp xếp phần tử con theo hàng ngang */
+    justify-content: space-between; /* phân phối về giữa*/
+    margin: auto; 
+    width: 80%;
+
+}
+
+.footer-section{
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-section h3{
+    color: orange;
+}
+
+.footer-section li a {
+    text-decoration-line: none;
+    color: bisque;
+}
+
+.footer-copy{
+    text-align: center;
+    margin-top: 20px;
+    font-size: larger;
+}
