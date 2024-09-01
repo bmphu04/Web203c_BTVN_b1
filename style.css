@@ -20,7 +20,9 @@ body {
     text-transform: uppercase;
 }
 .img-responsive{
-    max-width: 81%;
+    width: 81%;
+    margin-left: 37%;
+
 }
 
 .link {
@@ -108,7 +110,7 @@ th, td {
 }
 .img-responsive2{
     width: 20%;
-    margin-right: 40%;
+    margin-right: 0%;
 
 }
 .sologan1{
