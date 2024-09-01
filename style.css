@@ -56,13 +56,23 @@ th, td {
     text-align: center;
     color:bisque;
 }
-.SE1 td:nth-child(1), .SE2 td:nth-child(2), .SE3 td:nth-child(1),.SE3 td:nth-child(4), .SE4 td:nth-child(2), .SE4 td:nth-child(4), .SE5 td:nth-child(5) {
+.SE1 td:nth-child(1), .SE2 td:nth-child(4), .SE3 td:nth-child(1), .SE3 td:nth-child(6), .SE4 td:nth-child(2), .SE5 td:nth-child(3), .SE5 td:nth-child(5) {
     background-color: green;
     color: white;
 }
 
-.SE1 td:nth-child(3), .SE2 td:nth-child(4), .SE3 td:nth-child(3),.SE3 td:nth-child(6), .SE4 td:nth-child(6), .SE5 td:nth-child(3) {
+.SE1 td:nth-child(3), .SE2 td:nth-child(2), .SE4 td:nth-child(4) {
     background-color: blueviolet;
+    color: white;
+}
+
+.SE3 td:nth-child(4), .SE4 td:nth-child(6) {
+    background-color: coral;
+    color: white;
+}
+
+.SE3 td:nth-child(3){
+    background-color: aqua;
     color: white;
 }
 /* Định dạng cho phần lịch khai giảng */
