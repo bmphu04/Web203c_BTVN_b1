@@ -109,3 +109,11 @@ th, td {
 }
 
 
+
+footer {
+    background-color: #41384B;
+    padding: 20px 0;
+    color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+}
+
