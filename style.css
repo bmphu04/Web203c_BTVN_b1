@@ -144,3 +144,6 @@ footer {
     margin-top: 20px;
     font-size: larger;
 }
+.footer-logo {
+    position: absolute;
+}
