@@ -61,22 +61,22 @@ th, td {
 .SE1 td:nth-child(1), .SE2 td:nth-child(4), .SE3 td:nth-child(1), .SE3 td:nth-child(6), .SE4 td:nth-child(2), .SE5 td:nth-child(3), .SE5 td:nth-child(5) {
     background-color: green;
     color: white;
-}
+}/* Nhóm các ô chứa những môn Lập trình */
 
 .SE1 td:nth-child(3), .SE2 td:nth-child(2), .SE4 td:nth-child(4) {
     background-color: blueviolet;
     color: white;
-}
+}/* Nhóm các ô chứa những môn Toán */
 
 .SE3 td:nth-child(4), .SE4 td:nth-child(6) {
     background-color: coral;
     color: white;
-}
+}/* Nhóm các ô chứa những môn Ngoại ngữ 2 */
 
 .SE3 td:nth-child(3){
     background-color: aqua;
     color: white;
-}
+}/* Nhóm các ô chứa những môn Khác */
 /* Định dạng cho phần lịch khai giảng */
 .CEREMONY{
     text-align: left;/* Căn giữa nội dung dòng ceremony ở giữa */
@@ -144,8 +144,8 @@ footer {
 }
 
 .footer-content {
-    display: flex; /*sắp xếp phần tử con theo hàng ngang */
-    justify-content: space-between; /* phân phối về giữa*/
+    display: flex; /* Sắp xếp phần tử con theo hàng ngang */
+    justify-content: space-between; /* Phân phối về giữa */
     margin: auto; 
     width: 80%;
 
