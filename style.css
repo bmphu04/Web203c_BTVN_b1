@@ -104,13 +104,16 @@ th, td {
 
 }
 .end{
-   margin-left:25%; 
+   margin-left:23%; 
    width:81%;
    display: flex;
 }
-
+.Part1{
+    width: 38%;
+}
 .Part2{
-    margin-left: 5%;
+    margin-left: 3%;
+    width: 38%;
 }
 .img-responsive{
     width:20%;
