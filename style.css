@@ -99,10 +99,18 @@ th, td {
     text-align: center;
     font-family:monospace;
 }
+.title2{
+    text-align: center;
 
+}
 .end{
+   margin-left:25%; 
    width:81%;
-   margin-left: 40%;
+   display: flex;
+}
+
+.Part2{
+    margin-left: 5%;
 }
 .img-responsive{
     width:20%;
